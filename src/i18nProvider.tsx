@@ -1,6 +1,6 @@
 import polyglotI18nProvider from 'ra-i18n-polyglot';
 import englishMessages from './i18n/en';
-import spanishMessages from "@blackbox-vision/ra-language-spanish";
+import spanishMessages from './i18n/sp';
 
 const messages = {
     fr: () => import('./i18n/fr').then(messages => messages.default),
@@ -11,11 +11,13 @@ export default polyglotI18nProvider(
         if (locale === 'fr') {
             return messages[locale]();
             
+        }
+            
         if (locale === 'sp') {
-            return messages[locale](); 
+            return messages[locale]();
         }
         // Always fallback on english
-        return englishMessages;
+      return englishMessages;
     },
     'en',
     [
