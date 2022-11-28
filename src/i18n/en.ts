@@ -15,7 +15,7 @@ export const messages = {
             fields: {
                 commentable_short: 'Com.',
                 commentable: 'Commentable',
-                notifications: 'Notifications recipients',
+                notifications: 'Notification recipients',
                 nb_view: 'Nb views',
                 password: 'Password (if protected post)',
                 pictures: 'Related Pictures',

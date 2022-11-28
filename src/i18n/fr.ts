@@ -20,7 +20,7 @@ export default {
                 commentable: 'Commentable',
                 commentable_short: 'Com.',
                 created_at: 'Créé le',
-                notifications: 'Destinataires de notifications',
+                notifications: 'Destinataires des notifications',
                 nb_view: 'Nb de vues',
                 password: 'Mot de passe (si protégé)',
                 pictures: 'Photos associées',
